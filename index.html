@@ -8,13 +8,57 @@
     </head>
 
     <body>
-        <div>
-        <p>Lorem ipsum dolor sit amet adipiscing bibendum sem orci tempus aliquet gravida, orci amet iaculis aptent blandit quam accumsan donec in facilisis, cursus ante curabitur aliquet condimentum tincidunt facilisis non cubilia lorem et pretium aliquam phasellus ipsum metus quisque auctor tristique donec nibh, praesent congue ultricies aenean ornare ligula sagittis proin sed vestibulum purus tempus aenean neque aliquam curae vivamus purus egestas ligula tincidunt nullam.</p>
-    </div>
-        <img alt="Google" 
-        id="hplogo" 
-        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
-        width="272" 
-        height="92">
+        <div class="header">
+            <div class="left">
+                <div><span>About</span></div>
+                <div><span>Store</span></div>
+            </div>
+            <div class="right">
+                <div><span>Gmail</span></div>
+                <div><span>Images</span></div>
+                <div><span>
+                    <table>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </span></div>
+                    <div id="sign_in"><span><a class="button1" href="">Sign in</a>
+                </span></div>
+            </div>
+        
+
+        </div>
+        <div class="container">
+            <img 
+            alt="Google"
+            class="GLogo"
+            id="hplogo" 
+            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
+            width="272" 
+            height="92">
+            <form action="processing.php" method="post">
+                <div id="border">
+                    <input id="search-box" type="text" name="search">
+                </div>
+                <div id="search-button-group">
+                    <a class="button2" href="">Google Search</a>
+                    <a class="button2" href="">I'm Feeling Lucky</a>
+                </div>
+
+            </form>
+        </div>
     </body>
 </html>

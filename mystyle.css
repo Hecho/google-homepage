@@ -1,3 +1,92 @@
-element {
+body {
+    padding-top: 100px;
     padding-left: 20px;
+}
+span:hover {
+    text-decoration: underline;
+}
+.header {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 50px;
+    cursor: default;
+}
+.header div{
+    display: inline-block;
+    margin: 12px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #5c5c5c;
+}
+.header .left{
+    float: left;
+}
+.header .right{
+    display: flex;
+    direction: ltr;
+    float: right;
+    margin-right: 15px;
+    align-items: center;
+    vertical-align: auto;
+}
+.GLogo{
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+td{
+    border: 2px solid white;
+    background-color: grey;
+    padding: 2px;
+}
+table{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.button1 {
+    padding: 8px 15px;
+    background-color: #4285f4;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 2px;    
+}
+.container {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#border {
+    margin: auto;
+    width: 482px;
+    height: 44px;
+    border-color: #dfe1e5;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 24px;
+}
+
+#search-box {
+    width: 400px;
+    border-color: transparent;
+    margin: 0;
+    line-height: 34px;
+    margin-top: 2px;
+}
+
+#search-button-group {
+    padding: 40px;
+    text-align: center;
+}
+.button2 {
+    padding: 8px 15px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    color: #5F6368;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: 10px;
 }

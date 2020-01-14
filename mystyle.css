@@ -90,16 +90,21 @@ table{
     border-radius: 4px;
     margin-left: 10px;
 }
-.footer div{
+.footer div{    
     display: inline-block;
-    margin: 12px 10px;
+    margin: 20px 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     color: #5c5c5c;
+    bottom: 0;
 }
 .footer .left{
-    float: left;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 .footer .right{
-    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
